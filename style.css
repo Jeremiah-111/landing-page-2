@@ -53,6 +53,12 @@
     font-weight: bold;
   }
 
+  .content h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+  }
+
   /* font style */
 
   ul {
@@ -73,6 +79,7 @@
     border-radius: 1rem;
     font-size: 18px;
     padding: .5rem 2rem;
+    border-color: #F9FAF8;
   }
 
   .content button:hover {
@@ -80,8 +87,17 @@
     color: #3882F6;
   }
 
+  .cta-left {
+    color: #F9FAF8;
+  }
+
+  .cta-left h2 {
+    font-size: 24px;
+  }
+
   /* Hero */
 
+  
   .hero {
     display: flex;
     flex-wrap: wrap;
@@ -95,10 +111,16 @@
 
   .image img {
     max-width: auto;
-    min-width: 20rem;
+    min-width: 25rem;
     width: 100%;
     border-radius: 1rem;
   }
+
+/* information section */
+
+.information {
+    background-color: #F9FAF8;
+}
 
   .content {
     display: flex;
@@ -108,4 +130,106 @@
     flex: 1;
   }
 
-  
+  .img-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .img-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-wrapper img,
+  .img-wrapper p {
+    max-width: 12rem;
+    text-align: center;
+  }
+
+  .img-wrapper img {
+    border-radius: 1rem;
+  }
+
+  .content h2 {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    align-self: center;
+  }
+
+  /* testimonial section */
+
+  .testimonial {
+    background-color: #E5E7EB;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem;
+  }
+
+  blockquote {
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+  }
+
+  blockquote footer {
+    font-size: 24px;
+    align-self: flex-end;
+  }
+
+/* cta section */
+
+.cta {
+    background-color: #F9FAF8;
+    padding: 6rem;
+}
+
+.cta-wrapper {
+    background-color: #3882F6;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.cta-wrapper button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 1rem;
+    font-size: 18px;
+    padding: .5rem 2rem;
+    border-color: #F9FAF8;  
+}
+
+.cta-wrapper button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 2rem;
+}
+
+.footer p {
+    color: #E5E7EB;
+}
+
+.cta-left {
+    max-width: 20rem;
+}
