@@ -1,0 +1,111 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a max width and center the content */
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Example responsive typography */
+  body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* background-colors */
+
+  nav,
+  section {
+    background-color: #1F2937;
+  }
+
+  /* background-colors end */
+
+  /* font style */
+
+  .content h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+  }
+
+  .content p,
+  li {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+  li:hover {
+    color: #3882F6;
+  }
+
+  .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+  }
+
+  /* font style */
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    list-style: none;
+    gap: 1.5rem;
+  }
+
+  .logo {
+    margin-right: auto;
+  }
+
+  .content button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 1rem;
+    font-size: 18px;
+    padding: .5rem 2rem;
+  }
+
+  .content button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+  }
+
+  /* Hero */
+
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4rem 0;
+    gap: 3rem;
+  }
+
+  .image {
+    flex: 1;
+  }
+
+  .image img {
+    max-width: auto;
+    min-width: 20rem;
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1;
+  }
+
+  
